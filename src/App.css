@@ -1,0 +1,9 @@
+#root {
+    @apply bg-[url(/src/assets/img/background_image2.png)] w-full min-h-dvh bg-cover bg-no-repeat bg-center
+}
+
+@media (min-width: 1024px) {
+    #root {
+        @apply bg-[url(/src/assets/img/background_image.png)] w-full h-dvh bg-cover bg-no-repeat bg-center
+    }
+}
