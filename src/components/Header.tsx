@@ -32,11 +32,7 @@ const Header = () => {
         <audio ref={audioRef} src="/music/auld-lang-syne.mp3" loop />
         <div onClick={toggle}>
           <img
-            src={
-              isPlaying
-                ? "/src/assets/icon/sound-on.png"
-                : "/src/assets/icon/sound-off.png"
-            }
+            src={isPlaying ? "/icon/sound-on.png" : "/icon/sound-off.png"}
             alt=""
             className="w-[30px] h-[30px] cursor-pointer"
           />
