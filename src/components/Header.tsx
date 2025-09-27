@@ -31,15 +31,15 @@ const Header = () => {
       <header className="h-[5rem] p-[1rem] fixed right-0 flex justify-end-safe z-20 cursor-pointer">
         <audio
           ref={audioRef}
-          src={"/src/assets/music/auld-lang-syne.mp3"}
+          src={"./src/assets/music/auld-lang-syne.mp3"}
           loop
         />
         <div onClick={toggle}>
           <img
             src={
               isPlaying
-                ? "/src/assets/icon/sound-on.png"
-                : "/src/assets/icon/sound-off.png"
+                ? "./src/assets/icon/sound-on.png"
+                : "./src/assets/icon/sound-off.png"
             }
             alt=""
             className="w-[30px] cursor-pointer"
