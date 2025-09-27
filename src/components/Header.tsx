@@ -42,7 +42,7 @@ const Header = () => {
                 : "/src/assets/icon/sound-off.png"
             }
             alt=""
-            className="w-[30px] cursor-pointer"
+            className="w-[30px] h-[30px] cursor-pointer"
           />
         </div>
       </header>
